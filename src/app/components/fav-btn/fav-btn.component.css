@@ -1,0 +1,24 @@
+#fav-div {
+}
+#fav-btn1 {
+  color: #6e4e4e;
+  font-size: 40pt;
+  cursor: pointer;
+}
+#fav-btn2 {
+  color: #f54545;
+  font-size: 40pt;
+  cursor: pointer;
+}
+#fav-btn1:hover {
+  color: #4cb0f3;
+}
+#fav-btn2:hover {
+  color: #4cb0f3;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  #fav-btn {
+    font-size: 25pt;
+  }
+}

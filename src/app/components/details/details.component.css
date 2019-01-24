@@ -1,0 +1,62 @@
+#img {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: gray;
+}
+#product-price {
+  color: green;
+  font-size: 17pt;
+  margin-right: 1vw;
+}
+.reviews-div {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding-left: 1vw;
+}
+.reviews {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#back-link {
+  color: #0ab5f8f8;
+  text-decoration: underline;
+  font-size: 15pt;
+  cursor: pointer;
+}
+#info-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rate-btns {
+  height: 2vw;
+  width: 2vw;
+  font-size: 12pt;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  border-color: gray;
+  margin-right: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#rate-btn1 {
+  background-color: rgb(247, 79, 67);
+}
+#rate-btn2 {
+  background-color: rgb(247, 139, 67);
+}
+#rate-btn3 {
+  background-color: rgb(247, 220, 67);
+}
+#rate-btn4 {
+  background-color: rgb(220, 247, 67);
+}
+#rate-btn5 {
+  background-color: rgb(133, 247, 67);
+}

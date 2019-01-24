@@ -1,0 +1,18 @@
+<div id="fav-div">
+  <i *ngIf= !product.flag
+    class="material-icons"
+    title="Favourite"
+    id="fav-btn1"
+    [ngClass]="{ added: product.flag }"
+    (click)="addToFav()"
+    >favorite</i
+  >
+  <i *ngIf= product.flag
+    class="material-icons"
+    title="Favourite"
+    id="fav-btn2"
+    [ngClass]="{ added: product.flag }"
+    (click)="addToFav()"
+    >favorite</i
+  >
+</div>

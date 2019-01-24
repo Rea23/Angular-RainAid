@@ -1,0 +1,16 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-bottom: 2vw;
+}
+#header-img {
+    width: 35%;
+    min-width: 300px;
+}
+/* @media screen and (min-width: 300px) and (max-width: 800px) {
+    #header-img {
+        width: 60%;
+    }
+  } */
+  

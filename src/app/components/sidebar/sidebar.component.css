@@ -1,0 +1,29 @@
+.sidebar {
+  background-color: #38c4fcd2;
+  position: sticky;
+  top: 10px;
+  box-shadow: 20px 20px 30px grey;
+  padding: 1vw;
+}
+#product-div {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 2%;
+  margin-top: 1vw;
+}
+#img {
+  width: 100%;
+  min-width: 78px;
+  grid-column: 1 / 2;
+}
+#product-info {
+  grid-column: 2 / 3;
+}
+#product-info > a {
+  color: black;
+}
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  #header-fav {
+    font-size: 13pt;
+  }
+}

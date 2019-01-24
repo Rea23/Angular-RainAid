@@ -1,0 +1,35 @@
+<div id="mainbar-div">
+  <div id="search-div">
+    <input
+      id="search-input"
+      type="text"
+      #search
+      placeholder="Search..."
+      (keyup)="onSearch(search.value)"
+    />
+  </div>
+  <div id="product-list">
+    <div class="product" *ngFor="let product of (products | async)">
+      <div id="img-div">
+        <img
+          id="img"
+          src="../../../assets/images/{{ product.picture }}"
+          alt="{{ product.name }}"
+        />
+      </div>
+      <div id="second-col">
+        <h2 id="product-header">
+          <a
+            [routerLink]="['/product', product.id]"
+            routerLinkActive="router-link-active"
+            >{{ product.name }}</a
+          >
+        </h2>
+        <p id="product-price"><b>${{ product.price }}</b></p>
+        <app-fav-btn id="product-fav" [product]="product"></app-fav-btn>
+      </div>
+      <p id="product-description">{{ product.description }}</p>
+      <app-rate id="product-reviews" [reviews]="product.reviews"></app-rate>
+    </div>
+  </div>
+</div>

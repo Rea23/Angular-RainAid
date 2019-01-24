@@ -1,0 +1,19 @@
+<div class="sidebar">
+  <h2 id="header-fav">Favourites</h2>
+  <div
+    id="product-div"
+    *ngFor="let product of products"
+    routerLinkActive="router-link-active"
+  >
+    <img
+      id="img"
+      src="../../../assets/images/{{ product.picture }}"
+      alt="{{ product.name }}"
+    />
+    <div id="product-info">
+      <a [routerLink]="['/product', product.id]"><b>{{ product.name }}</b></a>
+      <p>${{ product.price }}</p>
+      <!-- <p>Current rate: {{ getRate() }} out of {{ rateArray.length }} reviews.</p> -->
+    </div>
+  </div>
+</div>

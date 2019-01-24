@@ -1,0 +1,9 @@
+<p><b>Current rate: {{ getRate() }} out of {{ rateArray.length }} reviews.</b></p>
+
+<div class="rate-div">
+  <button title="Very bad" class="rate-btns" id="rate-btn1" (click)="onStarClick(1)">1</button>
+  <button title="Bad" class="rate-btns" id="rate-btn2" (click)="onStarClick(2)">2</button>
+  <button title="Average" class="rate-btns" id="rate-btn3" (click)="onStarClick(3)">3</button>
+  <button title="Good" class="rate-btns" id="rate-btn4" (click)="onStarClick(4)">4</button>
+  <button title="Excellent" class="rate-btns" id="rate-btn5" (click)="onStarClick(5)">5</button>
+</div>

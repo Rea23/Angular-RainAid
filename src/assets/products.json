@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Kids' Unicorn",
+    "picture": "umbrella1.jpg",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "flag": false,
+    "price": 19,
+    "reviews": [
+      {
+        "review_id": 1,
+        "username": "Luce",
+        "comment": "Bas je smisan",
+        "rate": 5
+      },
+      {
+        "review_id": 2,
+        "username": "Anamaria",
+        "comment": "Presaren je, al je kvalitetan",
+        "rate": 4
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Big Yellow",
+    "picture": "umbrella2.jpg",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "flag": false,
+    "price": 22,
+    "reviews": [
+      {
+        "review_id": 1,
+        "username": "Cvjetko",
+        "comment": "Nije ljubicasti, ne valja",
+        "rate": 2
+      },
+      {
+        "review_id": 2,
+        "username": "Caki",
+        "comment": "Kvalitetan, ali mi se ne svida boja",
+        "rate": 4
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mini with Dots",
+    "picture": "umbrella3.jpg",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "flag": false,
+    "price": 13,
+    "reviews": [
+      {
+        "review_id": 1,
+        "username": "Veronika",
+        "comment": "Meni se svida",
+        "rate": 5
+      },
+      {
+        "review_id": 2,
+        "username": "Luce",
+        "comment": "Puka mi je odma prvi dan",
+        "rate": 1
+      },
+      {
+        "review_id": 3,
+        "username": "Rea",
+        "comment": "Okej je",
+        "rate": 3
+      }
+    ]
+  }
+]
